@@ -14,7 +14,12 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  padding: 1rem;
 }
 
 /* Reserve this file for global styles only */
+
+@layer base {
+  h1 {
+    @apply font-extrabold text-2xl mb-3;
+  }
+}
