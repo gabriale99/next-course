@@ -21,6 +21,5 @@ const WelcomeTemplate = ({ name }: { name: string }) => {
     </Html>
   );
 };
-import {} from "@react-email/components";
 
 export default WelcomeTemplate;

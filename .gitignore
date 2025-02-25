@@ -40,3 +40,5 @@ settings.json
 prisma/migrations
 
 .idea
+
+.react-email/
